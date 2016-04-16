@@ -307,7 +307,7 @@ _checkDigitValues["Z"] = 35;
  * @author Craig Newton <newtondev@gmail.com>
  */
 function parse (mrz) {
-  if (mrz == null || mrz.length != 88) {
+  if (mrz == null) {
     throw new Error('Invalid MRZ length');
   }
 
